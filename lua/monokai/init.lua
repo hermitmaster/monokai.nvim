@@ -64,9 +64,6 @@ local hl = {
       ErrorMsg = {
         fg = M.palette.red,
       },
-      ExtraWhitespace = {
-        bg = M.palette.red,
-      },
       IncSearch = {
         bg = M.palette.gray2,
       },
@@ -94,11 +91,11 @@ local hl = {
         fg = M.palette.white,
       },
       Pmenu = {
-        bg = M.palette.gray2,
+        bg = M.palette.gray1,
         fg = M.palette.white,
       },
       PmenuSBar = {
-        bg = M.palette.gray1,
+        bg = M.palette.gray2,
       },
       PmenuSel = {
         bg = M.palette.orange,
@@ -300,21 +297,6 @@ local hl = {
   },
   plugins = {
     cmp = {
-      CmpDocumentation = {
-        fg = M.palette.white
-      },
-      CmpDocumentationBorder = {
-        fg = M.palette.white
-      },
-      CmpItemAbbr = {
-        fg = M.palette.white,
-      },
-      CmpItemAbbrMatch = {
-        fg = M.palette.green
-      },
-      CmpItemAbbrMatchFuzzy = {
-        fg = M.palette.green
-      },
       CmpItemKindClass = {
         fg = M.palette.orange
       },
@@ -378,14 +360,6 @@ local hl = {
       CmpItemKindVariable = {
         fg = M.palette.red
       },
-      CmpItemMenu = {
-        fg = M.palette.gray4
-      },
-    },
-    indent_blankline = {
-      IndentBlanklineContextChar = {
-        fg = M.palette.red,
-      },
     },
     nvim_tree = {
       NvimTreeFolderIcon = {
@@ -405,20 +379,6 @@ local hl = {
       },
       NvimTreeRootFolder = {
         fg = M.palette.blue,
-      },
-    },
-    startify = {
-      StartifyBracket = {
-        fg = M.palette.gray2,
-      },
-      StartifyFile = {
-        fg = M.palette.white,
-      },
-      StartifyHeader = {
-        fg = M.palette.magenta,
-      },
-      StartifySlash = {
-        fg = M.palette.white,
       },
     },
     treesitter = {
