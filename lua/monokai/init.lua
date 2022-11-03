@@ -297,6 +297,12 @@ local hl = {
   },
   plugins = {
     cmp = {
+      CmpItemAbbrMatch = {
+        fg = M.palette.green
+      },
+      CmpItemAbbrMatchFuzzy = {
+        fg = M.palette.green
+      },
       CmpItemKindClass = {
         fg = M.palette.orange
       },
