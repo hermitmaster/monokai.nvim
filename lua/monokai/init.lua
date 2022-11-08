@@ -35,10 +35,10 @@ local hl = {
         fg = M.palette.gray2,
       },
       CursorColumn = {
-        bg = M.palette.gray1,
+        link = 'ColorColumn'
       },
       CursorLine = {
-        bg = M.palette.gray1,
+        link = 'ColorColumn'
       },
       CursorLineNR = {
         fg = M.palette.white,
@@ -55,20 +55,17 @@ local hl = {
       DiffText = {
         fg = M.palette.yellow,
       },
-      diffRemoved = {
-        fg = M.palette.red,
-      },
       Directory = {
         fg = M.palette.blue,
       },
       ErrorMsg = {
         fg = M.palette.red,
       },
-      IncSearch = {
-        bg = M.palette.gray2,
-      },
       FoldColumn = {
         fg = M.palette.gray,
+      },
+      IncSearch = {
+        bg = M.palette.gray2,
       },
       LineNr = {
         fg = M.palette.gray,
@@ -167,12 +164,6 @@ local hl = {
         fg = M.palette.black,
         bold = true,
       },
-      diffAdded = {
-        fg = M.palette.green,
-      },
-      diffLine = {
-        fg = M.palette.magenta,
-      },
       helpExample = {
         fg = M.palette.yellow,
       },
@@ -247,7 +238,7 @@ local hl = {
         fg = M.palette.orange,
       },
       SpecialChar = {
-        fg = M.palette.orange,
+        link = 'Special'
       },
       StorageClass = {
         fg = M.palette.orange,
@@ -286,15 +277,6 @@ local hl = {
       },
     },
   },
-  langs = {
-    vim = {
-      vimCommentTitle = {
-        fg = M.palette.gray,
-        bold = true,
-        italic = true,
-      },
-    }
-  },
   plugins = {
     cmp = {
       CmpItemAbbrMatch = {
@@ -310,7 +292,7 @@ local hl = {
         fg = M.palette.orange
       },
       CmpItemKindConstant = {
-        fg = M.palette.mgenta
+        link = 'Constant'
       },
       CmpItemKindConstructor = {
         fg = M.palette.cyan
@@ -319,7 +301,7 @@ local hl = {
         fg = M.palette.orange
       },
       CmpItemKindEnumMember = {
-        fg = M.palette.magenta
+        link = 'Constant'
       },
       CmpItemKindEvent = {
         fg = M.palette.orange
@@ -328,13 +310,13 @@ local hl = {
         fg = M.palette.green
       },
       CmpItemKindFunction = {
-        fg = M.palette.cyan
+        link = 'Function'
       },
       CmpItemKindInterface = {
         fg = M.palette.orange
       },
       CmpItemKindKeyword = {
-        fg = M.palette.red
+        link = 'Keyword'
       },
       CmpItemKindMethod = {
         fg = M.palette.cyan
@@ -343,7 +325,7 @@ local hl = {
         fg = M.palette.yellow
       },
       CmpItemKindOperator = {
-        fg = M.palette.green
+        link = 'Operator'
       },
       CmpItemKindProperty = {
         fg = M.palette.green
@@ -369,39 +351,22 @@ local hl = {
     },
     nvim_tree = {
       NvimTreeFolderIcon = {
-        fg = M.palette.gray3,
+        fg = M.palette.gray3
       },
       NvimTreeFolderName = {
-        fg = M.palette.blue,
+        link = 'Directory'
       },
       NvimTreeGitDirty = {
-        fg = M.palette.red,
+        link = 'DiffDelete'
       },
       NvimTreeGitNew = {
-        fg = M.palette.cyan,
+        link = 'DiffChange'
       },
       NvimTreeGitStaged = {
-        fg = M.palette.green,
+        link = 'DiffAdd'
       },
       NvimTreeRootFolder = {
-        fg = M.palette.blue,
-      },
-    },
-    treesitter = {
-      TSField = {
-        fg = M.palette.white,
-      },
-      TSPunctBracket = {
-        fg = M.palette.white,
-      },
-      TSPunctSpecial = {
-        fg = M.palette.red,
-      },
-      TSVariable = {
-        fg = M.palette.white,
-      },
-      TSVariableBuiltin = {
-        fg = M.palette.orange,
+        link = 'Directory'
       },
     }
   }
