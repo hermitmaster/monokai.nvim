@@ -303,6 +303,9 @@ local hl = {
       CmpItemAbbrMatchFuzzy = {
         fg = M.palette.green
       },
+      CmpItemKind = {
+        fg = M.palette.blue
+      },
       CmpItemKindClass = {
         fg = M.palette.orange
       },
@@ -311,9 +314,6 @@ local hl = {
       },
       CmpItemKindConstructor = {
         fg = M.palette.cyan
-      },
-      CmpItemKindDefault = {
-        fg = M.palette.blue
       },
       CmpItemKindEnum = {
         fg = M.palette.orange
