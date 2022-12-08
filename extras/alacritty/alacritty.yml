@@ -1,0 +1,39 @@
+---
+colors:
+  primary:
+    background: "#272822"
+    foreground: "#f8f8f2"
+  cursor:
+    text: "#272822"
+    cursor: "#f8f8f2"
+  normal:
+    black: "#272822"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#e6db74"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f8f8f2"
+  bright:
+    black: "#75715e"
+    red: "#f92672"
+    green: "#a6e22e"
+    yellow: "#e6db74"
+    blue: "#66d9ef"
+    magenta: "#ae81ff"
+    cyan: "#a1efe4"
+    white: "#f8f8f5"
+  indexed_colors:
+    - index: 202
+      color: "#fd971f"
+    - index: 208
+      color: "#fda135"
+    - index: 236
+      color: "#3c3d38"
+    - index: 238
+      color: "#52524e"
+    - index: 240
+      color: "#676864"
+    - index: 242
+      color: "#7d7e7a"
