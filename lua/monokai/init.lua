@@ -1,28 +1,28 @@
 local M = {}
 
 M.palette = {
-  black          = '#272822',
-  red            = '#f92672',
-  green          = '#a6e22e',
-  yellow         = '#e6db74',
-  blue           = '#66d9ef',
-  magenta        = '#ae81ff',
-  cyan           = '#a1efe4',
-  white          = '#f8f8f2',
-  gray           = '#75715e',
-  bright_red     = '#f92672',
-  bright_green   = '#a6e22e',
-  bright_yellow  = '#e6db74',
-  bright_blue    = '#66d9ef',
+  black = '#272822',
+  red = '#f92672',
+  green = '#a6e22e',
+  yellow = '#e6db74',
+  blue = '#66d9ef',
+  magenta = '#ae81ff',
+  cyan = '#a1efe4',
+  white = '#f8f8f2',
+  gray = '#75715e',
+  bright_red = '#f92672',
+  bright_green = '#a6e22e',
+  bright_yellow = '#e6db74',
+  bright_blue = '#66d9ef',
   bright_magenta = '#ae81ff',
-  bright_cyan    = '#a1efe4',
-  bright_white   = '#f9f8f5',
-  orange         = '#fd971f',
-  bright_orange  = '#fda135',
-  gray1          = '#3c3d38',
-  gray2          = '#52524e',
-  gray3          = '#676864',
-  gray4          = '#7d7e7a',
+  bright_cyan = '#a1efe4',
+  bright_white = '#f9f8f5',
+  orange = '#fd971f',
+  bright_orange = '#fda135',
+  gray1 = '#3c3d38',
+  gray2 = '#52524e',
+  gray3 = '#676864',
+  gray4 = '#7d7e7a',
 }
 
 local function load_highlights(highlights)
@@ -41,10 +41,10 @@ local hl = {
         fg = M.palette.gray2,
       },
       CursorColumn = {
-        link = 'ColorColumn'
+        link = 'ColorColumn',
       },
       CursorLine = {
-        link = 'ColorColumn'
+        link = 'ColorColumn',
       },
       CursorLineNR = {
         fg = M.palette.white,
@@ -244,7 +244,7 @@ local hl = {
         fg = M.palette.orange,
       },
       SpecialChar = {
-        link = 'Special'
+        link = 'Special',
       },
       StorageClass = {
         fg = M.palette.orange,
@@ -286,103 +286,101 @@ local hl = {
   plugins = {
     cmp = {
       CmpItemAbbrMatch = {
-        fg = M.palette.green
+        fg = M.palette.green,
       },
       CmpItemAbbrMatchFuzzy = {
-        fg = M.palette.green
+        fg = M.palette.green,
       },
       CmpItemKind = {
-        fg = M.palette.blue
+        fg = M.palette.blue,
       },
       CmpItemKindClass = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindConstant = {
-        link = 'Constant'
+        link = 'Constant',
       },
       CmpItemKindConstructor = {
-        fg = M.palette.cyan
+        fg = M.palette.cyan,
       },
       CmpItemKindEnum = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindEnumMember = {
-        link = 'Constant'
+        link = 'Constant',
       },
       CmpItemKindEvent = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindField = {
-        fg = M.palette.green
+        fg = M.palette.green,
       },
       CmpItemKindFunction = {
-        link = 'Function'
+        link = 'Function',
       },
       CmpItemKindInterface = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindKeyword = {
-        link = 'Keyword'
+        link = 'Keyword',
       },
       CmpItemKindMethod = {
-        fg = M.palette.cyan
+        fg = M.palette.cyan,
       },
       CmpItemKindModule = {
-        fg = M.palette.yellow
+        fg = M.palette.yellow,
       },
       CmpItemKindOperator = {
-        link = 'Operator'
+        link = 'Operator',
       },
       CmpItemKindProperty = {
-        fg = M.palette.green
+        fg = M.palette.green,
       },
       CmpItemKindReference = {
-        fg = M.palette.red
+        fg = M.palette.red,
       },
       CmpItemKindStruct = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindTypeParameter = {
-        fg = M.palette.green
+        fg = M.palette.green,
       },
       CmpItemKindUnit = {
-        fg = M.palette.orange
+        fg = M.palette.orange,
       },
       CmpItemKindValue = {
-        fg = M.palette.red
+        fg = M.palette.red,
       },
       CmpItemKindVariable = {
-        fg = M.palette.red
+        fg = M.palette.red,
       },
     },
     nvim_tree = {
       NvimTreeFolderIcon = {
-        fg = M.palette.gray3
+        fg = M.palette.gray3,
       },
       NvimTreeFolderName = {
-        link = 'Directory'
+        link = 'Directory',
       },
       NvimTreeGitDirty = {
-        link = 'DiffDelete'
+        link = 'DiffDelete',
       },
       NvimTreeGitNew = {
-        link = 'DiffChange'
+        link = 'DiffChange',
       },
       NvimTreeGitStaged = {
-        link = 'DiffAdd'
+        link = 'DiffAdd',
       },
       NvimTreeRootFolder = {
-        link = 'Directory'
+        link = 'Directory',
       },
-    }
-  }
+    },
+  },
 }
 
 M.setup = function()
   vim.cmd('hi clear')
-  if vim.fn.exists('syntax_on') then
-    vim.cmd('syntax reset')
-  end
+  if vim.fn.exists('syntax_on') then vim.cmd('syntax reset') end
 
   vim.g.colors_name = 'monokai'
   vim.opt.background = 'dark'

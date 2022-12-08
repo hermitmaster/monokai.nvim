@@ -5,12 +5,12 @@ return {
     a = {
       bg = palette.gray3,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     b = {
       bg = palette.gray2,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     c = 'StatusLine',
   },
@@ -18,12 +18,12 @@ return {
     a = {
       bg = palette.gray3,
       fg = palette.yellow,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     z = {
       bg = palette.gray3,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
   },
   inactive = {
@@ -35,36 +35,36 @@ return {
     a = {
       bg = palette.gray3,
       fg = palette.green,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     z = {
       bg = palette.gray3,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
   },
   replace = {
     a = {
       bg = palette.gray3,
       fg = palette.red,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     z = {
       bg = palette.gray3,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
   },
   visual = {
     a = {
       bg = palette.gray3,
       fg = palette.magenta,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
     z = {
       bg = palette.gray3,
       fg = palette.white,
-      gui = 'bold, '
+      gui = 'bold, ',
     },
   },
 }
