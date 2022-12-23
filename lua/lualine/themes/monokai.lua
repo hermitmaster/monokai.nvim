@@ -1,4 +1,4 @@
-local palette = require('monokai').palette
+local palette = require('monokai.palette')
 
 return {
   normal = {
