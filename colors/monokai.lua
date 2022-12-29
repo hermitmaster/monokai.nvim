@@ -330,6 +330,11 @@ local hl = {
         fg = palette.red,
       },
     },
+    noice = {
+      NotifyBackground = {
+        bg = palette.gray2,
+      },
+    },
     nvim_tree = {
       NvimTreeFolderIcon = {
         fg = palette.gray3,
