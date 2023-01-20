@@ -103,21 +103,21 @@ local hl = {
         bold = true,
       },
       StatusLine = {
-        bg = palette.gray1,
+        bg = palette.black,
         fg = palette.white,
         bold = true,
       },
       StatusLineNC = {
-        bg = palette.gray1,
-        fg = palette.gray,
+        bg = palette.black,
+        fg = palette.gray1,
       },
       Tabline = {
-        bg = palette.gray1,
-        fg = palette.gray,
+        bg = palette.black,
+        fg = palette.gray1,
       },
       TablineFill = {
-        bg = palette.gray1,
-        fg = palette.gray,
+        bg = palette.black,
+        fg = palette.gray1,
       },
       TablineSel = {
         bg = palette.black,
