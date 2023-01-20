@@ -193,6 +193,7 @@ local hl = {
       },
       Keyword = {
         fg = palette.blue,
+        italic = true,
       },
       Label = {
         fg = palette.red,
