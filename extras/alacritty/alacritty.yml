@@ -7,7 +7,7 @@ colors:
     text: "#272822"
     cursor: "#f8f8f2"
   normal:
-    black: "#272822"
+    black: "#1f201b"
     red: "#f92672"
     green: "#a6e22e"
     yellow: "#e6db74"
@@ -29,6 +29,8 @@ colors:
       color: "#fd971f"
     - index: 208
       color: "#fda135"
+    - index: 235
+      color: "#272822"
     - index: 236
       color: "#3c3d38"
     - index: 238
