@@ -352,6 +352,10 @@ local hl = {
       NvimTreeGitStaged = {
         link = 'DiffAdd',
       },
+      NvimTreeNormal = {
+        fg = palette.white,
+        bg = palette.black,
+      },
       NvimTreeRootFolder = {
         link = 'Directory',
       },
