@@ -109,15 +109,15 @@ local hl = {
       },
       StatusLineNC = {
         bg = palette.black,
-        fg = palette.gray1,
+        fg = palette.gray,
       },
       Tabline = {
         bg = palette.black,
-        fg = palette.gray1,
+        fg = palette.gray,
       },
       TablineFill = {
         bg = palette.black,
-        fg = palette.gray1,
+        fg = palette.gray,
       },
       TablineSel = {
         bg = palette.black,
