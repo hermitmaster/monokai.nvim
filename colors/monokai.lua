@@ -360,6 +360,9 @@ local hl = {
         link = 'Directory',
       },
     },
+    trouble = {
+      TroubleNormal = { fg = palette.white, bg = palette.black },
+    },
   },
 }
 
