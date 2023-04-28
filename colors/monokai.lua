@@ -173,7 +173,7 @@ local hl = {
         fg = palette.cyan,
       },
       Delimiter = {
-        fg = palette.red,
+        fg = palette.white,
       },
       Error = {
         bg = palette.red,
@@ -256,6 +256,9 @@ local hl = {
       },
       Type = {
         fg = palette.green,
+      },
+      ['@field'] = {
+        fg = palette.blue,
       },
     },
   },
